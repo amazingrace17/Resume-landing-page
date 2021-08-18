@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+html, body{
+    height:100%
+}
+body{
+    background-color: ivory;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin : 0.5em 0 0.5em 0;
+}
+img{
+    width:2em;
+    height: 2em;
+}
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 2em;
+    display: block;
+    background-color: green;
+    color: honeydew;
+}
+
+nav > ul {
+    display:inline;
+
+
+}
+nav a:visited , nav a:link {
+    color:lavender;
+    text-decoration: none;
+}
+nav > ul> li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-left:2em;
+    font-size: 20px;
+}
+h2{
+    color: green ;
+    font-style: bold ;
+    font-size : 3em;
+        margin: auto;
+        padding: 1rem;
+}
+div{
+    height: 30%;
+    padding : 2em;
+    margin: 2em;
+}
+
+div > ul {
+    display : block;
+}
+
+div > ul >li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-left:2em;
+}
+aside > img {
+    width :30px;
+    height :30px
+}
+main{
+    display : block;
+    min-height: 85%; 
+    padding: 3em 0;
+
+}
+p{
+    font-size: 1.2em;
+}
+footer{
+    padding : 15px;
+}
+aside,
+article {
+  padding: 2em;
+}
+aside {
+    text-align: center;
+  }
+  
+  article {
+    width: 75%;
+  }
+  
+@media only screen and (min-width: 768px) {
+    main {
+      display: flex;
+    }
+  
+    aside {
+      margin-left: 2%;
+    }
+  
+    .columns-desktop {
+      display: flex;
+    }
+  }
+
+  .skills {
+    background-color: #f6aeae;
+    padding: 10px;
+    border: solid 1px #f6aeae;
+    border-radius: 3px;
+    color: #fff;
+  }
+  
