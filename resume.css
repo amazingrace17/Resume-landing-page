@@ -95,7 +95,7 @@ aside {
   
 @media only screen and (min-width: 768px) {
     main {
-      display: flex;
+      display: block;
     }
   
     aside {
